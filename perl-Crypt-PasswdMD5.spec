@@ -1,6 +1,6 @@
 Name: 		perl-Crypt-PasswdMD5
 Version:	1.3
-Release:	16%{?dist}
+Release:	17%{?dist}
 Summary:	Provides interoperable MD5-based crypt() functions 
 License:	(GPL+ or Artistic) and Beerware
 Group:		Development/Libraries
@@ -39,6 +39,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.3-17
+- Mass rebuild 2013-12-27
+
 * Tue Nov 13 2012 Jitka Plesnikova <jplesnik@redhat.com> - 1.3-16
 - Add license Beerware
 - Use DESTDIR rather than PERL_INSTALL_ROOT
